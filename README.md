@@ -1,6 +1,7 @@
 # github-script
 ```
 git clone https://github.com/derlappen/github-script tmp
+rm README.md
 cp tmp/* ~/
 chmod +x gitsetup.sh && chmod +x gitpush.sh
 rm -rf tmp
