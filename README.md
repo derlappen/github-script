@@ -8,7 +8,8 @@ rm -rf tmp
 And you are ready to go!
 ```
 ./gitsetup.sh
-
+```
+```
 ./gitpush.sh
 ```
 
