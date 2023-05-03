@@ -22,7 +22,7 @@ echo ".git" > .gitignore
 
 git init
 git add *
-git commit -m "commit $CUR_DATE"
+git commit -m "initial commit"
 git branch -M main
 git remote add origin $giturl
 git push -u origin main

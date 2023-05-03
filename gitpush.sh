@@ -1,7 +1,10 @@
 #!/bin/bash
 
-CUR_DATE="date +%Y%m%d_%H%M%S"
+d=`date +%Y-%m-%d-%H-%M`
+echo $d
 
 git add *
-git commit -m "commit $CUR_DATE"
+git commit -m "commit $d"
 git push -u origin main
+
+
