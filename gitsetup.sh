@@ -18,6 +18,8 @@ echo "---------------------------------------"
 echo "when done, provide repository ssh path:"
 read giturl
 
+echo ".git" > .gitignore
+
 git init
 git add *
 git commit -m "commit $CUR_DATE"
