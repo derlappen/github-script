@@ -18,7 +18,7 @@ echo "---------------------------------------"
 echo "when done, provide repository ssh path:"
 read giturl
 
-echo ".git" > .gitignore
+echo ".*" >> .gitignore
 
 git init
 git add *
